@@ -64,4 +64,42 @@ button {
   align-items: center;
 }
 
+
+.players {
+  width: 80%;
+  justify-content: space-around;
+}
+
+.dice_roll {
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  background-color:black;
+  height: 20%;
+
+}
+
+.dice_roll > * {
+  color: white;
+}
+
+
+
+.winner {
+  width: 40%;
+  height: 20%;
+  background-color:aqua;
+  justify-content: center;
+  align-items: center;
+}
+
+.winner > p {
+  font-size: 18px;
+}
+
+.winner > i {
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
 /* /dice_game */
