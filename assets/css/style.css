@@ -48,6 +48,7 @@ align-items: center;
   background-color: white;
   border-radius: 10px;
   align-items: center;
+  justify-content: space-around;
 }
 
 
@@ -74,8 +75,9 @@ button {
   width: 80%;
   justify-content: space-around;
   align-items: center;
-  background-color:black;
+  background-color: darkslategray;
   height: 20%;
+  border-radius: 10px;
 
 }
 
@@ -91,6 +93,7 @@ button {
   background-color:aqua;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .winner > p {

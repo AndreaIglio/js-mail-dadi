@@ -24,15 +24,26 @@ btnSearch.addEventListener('click',
 
     function () {
 
+        var result = false;
+
         for (var i = 0 ; i < emailList.length; i++) {
 
             if (userEmail.value == emailList[i]) {
 
-            userEmailInput.innerHTML = ('You are good to go');
-            console.log(userEmailInput);
+            result = true;
+
 
             }
         }
+
+        if (result == true) {
+            userEmailInput.innerHTML = ('You are good to go');
+            console.log(userEmailInput);
+        }
+        else {
+            userEmailInput.innerHTML = ('You cannot access');
+        }
+
     }
 )
 
@@ -52,7 +63,6 @@ var generateNumberIa = Math.floor(Math.random() * 6) + 1;
 
 playerDice.innerHTML = generateNumberPlayer;
 iaDice.innerHTML = generateNumberIa;
-
 
 
 
