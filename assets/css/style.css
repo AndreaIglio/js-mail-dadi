@@ -50,6 +50,11 @@ align-items: center;
   align-items: center;
 }
 
+
+button {
+  margin-top: 10px;
+}
+
 /* /email_game */
 
 /* dice_game */
