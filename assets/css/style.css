@@ -3,3 +3,60 @@
   padding: 0;
   box-sizing:border-box;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* utility class */
+
+.d-flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* /utility class */
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: blueviolet;
+}
+
+.wrapper > section {
+  height: 50%;
+}
+
+
+/* email game */
+
+#email_game {
+
+background-color: darkkhaki;
+justify-content: center;
+align-items: center;
+
+}
+
+.card {
+  width: 40%;
+  height: 80%;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+}
+
+/* /email_game */
+
+/* dice_game */
+#dice_game {
+  background-color: darkslategray;
+  justify-content: center;
+  align-items: center;
+}
+
+/* /dice_game */
